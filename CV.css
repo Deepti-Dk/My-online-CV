@@ -1,0 +1,154 @@
+/************ START ***********/
+body {
+  width: 100%;
+  font-family: sans-serif;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/************ HEADER SECTION *******/
+.headSec {
+  font-size: 18px;
+  background: #380000;
+  color: white;
+  font-weight: bold;
+  padding: 0.75%;
+  width: 100%;
+  position: fixed;
+}
+.headSec > nav {
+  font-weight: bold;
+  padding-right: 5px;
+  margin: 0px;
+  border: 0px;
+}
+.headSec > nav > a {
+  color: white;
+}
+
+/************* MAIN SECTION ********/
+.mainSection,
+h1,
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 0px;
+  background-color: lightgray;
+}
+.workingPic {
+  padding: 2%;
+  width: 20%;
+  height: 20%;
+}
+h1 {
+  font-size: 40px;
+}
+
+/************* NAME SECTION ************/
+.nameSection,
+.contactInfo {
+  padding-top: 2%;
+  padding-left: 7%;
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  color: #996600;
+}
+.nameSection > p {
+  color: black;
+}
+
+/************ CONTACT SECTION ***********/
+.contactHead {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.contactText {
+  display: inline;
+  color: black;
+  font-weight: bold;
+}
+
+.contactInfo > .contactText > a {
+  color: blue;
+}
+.fa {
+  padding: 1%;
+  font-size: 30px;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: darkblue;
+  color: white;
+}
+.fa-github {
+  /*background: black;*/
+  background: #24292e;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/** WORK EXPERIENCE & QUALIFICATIONS **/
+.workExp,
+.Qual {
+  font-size: 25px;
+  background: #996600;
+  color: white;
+  font-weight: bold;
+  padding: 0.5%;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  background: lightgray;
+}
+.flexContainer > div {
+  width: 30%;
+  margin-right: 2%;
+  padding-right: 2%;
+  text-align: left;
+}
+.verticalLine {
+  border-right: thick solid #996600;
+}
+.boldText {
+  font-weight: bold;
+}
+.workExp > span {
+  display: inline;
+  padding-left: 9em;
+}
+.workExp > span > span {
+  padding-left: 14.5em;
+}
+
+/********** FOOTER SECTION *********/
+.copyright {
+  background-color: #380000;
+  color: white;
+  padding: 1%;
+  padding-left: 40%;
+}
+.copyright > a > span {
+  color: white;
+  display: inline-block;
+  padding-left: 50%;
+  text-decoration: underline;
+}
+
+/********** END ********************/
